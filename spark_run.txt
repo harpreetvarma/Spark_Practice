@@ -1,0 +1,19 @@
+G:\spark-1.6.1-bin-hadoop2.6\bin>spark-submit --class "com.mycompany.app.App" --master local[1] "C:\Users\Harpreet\Desktop\spark\my-app\target\my-app-1.0-SNAPSHOT.jar"
+16/11/20 00:50:36 WARN : Your hostname, Harpreet resolves to a loopback/non-reachable address: fe80:0:0:0:38ff:c8c:bfd6:f97a%eth6, but we couldn't find any external IP address!
+Count is95
+
+
+
+
+C:\Users\Harpreet\Desktop\spark\my-app>mvn clean package
+
+
+
+C:\Users\Harpreet\Desktop\spark>mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+
+spark-submit --class "Main" --master local[1] "C:\Users\Harpreet\Desktop\Spark_eclipse\Test_Spark\target\Test_Spark-0.0.1-SNAPSHOT.jar"
+
+m2e releases repository	http://download.eclipse.org/technology/m2e/releases	Enabled
+
+"C:\Users\Harpreet\Desktop\Spark_eclipse\Filter_Spark\target\Filter_Spark-0.0.1-SNAPSHOT.jar"
